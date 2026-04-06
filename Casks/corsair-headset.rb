@@ -9,6 +9,11 @@ cask "corsair-headset" do
 
   app "Corsair Headset.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Corsair Headset.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/Corsair Headset",
   ]
