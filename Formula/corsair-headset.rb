@@ -2,8 +2,7 @@ class CorsairHeadset < Formula
   desc "macOS menu bar app for Corsair wireless headsets"
   homepage "https://github.com/jlevere/corsair-headset"
   url "https://github.com/jlevere/corsair-headset/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 :no_check
-  license :cannot_represent
+  sha256 "947f5b266206853f978cea5a5451b27d335340d25db277eef6571e0d41d26e83"
   head "https://github.com/jlevere/corsair-headset.git", branch: "main"
 
   depends_on "rust" => :build
