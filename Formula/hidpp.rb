@@ -1,8 +1,8 @@
 class Hidpp < Formula
   desc "Configure Logitech devices without Options+"
   homepage "https://github.com/jlevere/hidpp"
-  url "https://github.com/jlevere/hidpp/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "b103445adcab0aef5abf20f99a6645ffd3068201b1690b10bf82d84c5804871c"
+  url "https://github.com/jlevere/hidpp/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "6adba40fba5d7f5431e751181f56724c39df5646759bad5130277ace3b5b0a7f"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "rust" => :build
