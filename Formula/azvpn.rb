@@ -43,7 +43,7 @@ class Azvpn < Formula
   # the build-macos job's outputs in release.yml.
   version "0.1.0"
   url "https://github.com/jlevere/azvpn/releases/download/v0.1.0/azvpn-0.1.0-aarch64-apple-darwin.tar.gz"
-  sha256 "78bf1d2698017ea74e5359c1b3547bb0973527087c29fb7c16e84389450d31bb"
+  sha256 "2117c7a5c3bd7b0a8089511557b6352e7e21f54a073edeee79fa4ab2a5b4ed5d"
   depends_on arch: :arm64
   # =========================================================
 
