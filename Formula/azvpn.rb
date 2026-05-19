@@ -41,9 +41,9 @@ class Azvpn < Formula
   # ===== TEMPLATE FILL: replaced on every release by CI =====
   # `cargo xtask publish-formula` substitutes version + sha256 from
   # the build-macos job's outputs in release.yml.
-  version "0.1.0"
-  url "https://github.com/jlevere/azvpn/releases/download/v0.1.0/azvpn-0.1.0-aarch64-apple-darwin.tar.gz"
-  sha256 "f06e883ec0afc87ed55d359cc30057b7fcc60160acdbc5c2f56514a524eae04f"
+  version "0.2.0"
+  url "https://github.com/jlevere/azvpn/releases/download/v0.2.0/azvpn-0.2.0-aarch64-apple-darwin.tar.gz"
+  sha256 "19cdbf48630d4ffa575897d2a5f171e9447b69968214e03b093086fbd0400220"
   depends_on arch: :arm64
   # =========================================================
 
